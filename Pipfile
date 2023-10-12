@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 adafruit-circuitpython-pca9685 = "*"
 pyyaml = "*"
+"RPi.GPIO" = "*"
 
 [dev-packages]
 
