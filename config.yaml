@@ -1,8 +1,59 @@
-A1:
-  channel: 0
-  left: 0.3
-  right: 0.5
+E1:
+  channel: 15
+  left: 0.075
+  straight: 0.065
+E2:
+  channel: 12
+  right: 0.065
+  left: 0.1
 A2:
+  channel: 9
+  right: 0.06
+  straight: 0.075
+A1:
+  channel: 10
+  left: 0.085
+  straight: 0.075
+A3:
+  channel: 11
+  right: 0.06
+  left: 0.085
+B1:
+  channel: 8
+  right: 0.058
+  straight: 0.07
+B2:
+  channel: 6
+  right: 0.063
+  left: 0.085
+B3:
+  channel: 7
+  straight: 0.07
+  left: 0.08
+C1:
   channel: 1
-  left: 0.2
-  straight: 0.4
+  right: 0.065
+  left: 0.085
+C2:
+  channel: 3
+  right: 0.025
+  straight: 0.04
+C3:
+  channel: 2
+  straight: 0.07
+  left: 0.08
+D1:
+#### DEAD
+  channel: 14
+  right: 0.06
+  straight: 0.07
+D2:
+  channel: 5
+  right: 0.06
+  left: 0.085
+D3:
+  channel: 4
+  straight: 0.07
+  right: 0.055
+
+
