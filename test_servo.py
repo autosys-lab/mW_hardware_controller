@@ -8,7 +8,7 @@ import board
 from adafruit_pca9685 import PCA9685
 
 i2c = busio.I2C(board.SCL, board.SDA)
-pca = PCA9685(i2c)
+pca = PCA9685(i2c, address=0x41)
 pca.frequency = PWM_FREQ
 
 channel = int(sys.argv[1])

@@ -65,7 +65,7 @@ def main():
         return
     # init pca
     i2c = busio.I2C(board.SCL, board.SDA)
-    pca = PCA9685(i2c, , address=0x41)
+    pca = PCA9685(i2c, address=0x41)
     pca.frequency = PWM_FREQ
 
     # init listener
