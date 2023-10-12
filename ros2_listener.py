@@ -9,7 +9,7 @@ TOPIC = os.getenv("TOPIC", '/switches')
 
 class Listener(Node):
     def __init__(self, callback):
-        super.__init__('hardware_controller_listener')
+        super().__init__("hardware_controller_listener")
         self.callback = callback
         self.subscription = self.create_subscription(String,TOPIC,self._listener_callback,10)
         self.subscription  # prevent unused variable warning
