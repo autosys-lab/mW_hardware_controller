@@ -17,7 +17,7 @@ class Listener(Node):
     def _listener_callback(self, msg):
         data = msg.data
         servo = data[:2]
-        direction = data[2]
+        direction = int(data[2])
         self.callback(servo, direction)
 
     def listen(self):
