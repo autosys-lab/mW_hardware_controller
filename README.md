@@ -4,7 +4,7 @@ This simple python program can be used to control the switches in the MicroWunde
 ## Installation
 Clone this repo and install all dependencies with (inside the repo):
 ```
-pipenv install .
+pipenv install
 ```
 TODO: Instructions to automnatically install into systemd
 
