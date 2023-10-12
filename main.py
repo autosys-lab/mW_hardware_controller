@@ -75,6 +75,7 @@ def main():
         listener = udp_listener.Listener(callback)
     elif CONN == 'ROS':
         import ros2_listener
+        import rclpy
         rclpy.init()
         listener = ros2_listener.Listener(callback)
     
